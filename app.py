@@ -12,7 +12,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # Load the model and word index
 # ----------------------------
 
-model = keras.models.load_model("imdb_lstm_yashsarin.h5")
+model = keras.models.load_model("imdb_lstm_Yashsarin.h5")
 
 with open("imdb_word_index.json", "r") as f:
     word_index = json.load(f)
@@ -94,3 +94,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
